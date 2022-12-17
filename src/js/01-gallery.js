@@ -26,7 +26,7 @@ galleryItems.forEach(element => {
 })
 galleryPictures.append(...pictures)
 
-new SimpleLightbox('.gallery a', {
+let picturesGallery = new SimpleLightbox('.gallery a', {
     captionsData: `alt`,
 	captionDelay: 250,
 });
